@@ -1,1 +1,3 @@
-# WP2017_About_Us
+# WP2017 About Us
+
+## NCKU EE Summer About Us
