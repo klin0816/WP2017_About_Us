@@ -1,0 +1,275 @@
+body{
+	background-color: #F5FFFA;
+}
+.bannerContainer{
+	position: fixed;
+	height: 100px;
+	width: 100%;
+	background-color: #F5FFFA;
+	top:0px;	
+	left:0px;
+	z-index:1;
+	opacity:0.8;
+}
+.TopPNG{
+	position: absolute;
+	top: 20px;
+	left: 48%;
+}
+.BannerFont{
+	font-family: Century Gothic, sans-serif;
+	position: absolute;
+	top: 35%;
+	font-size: 25px;
+	white-space: nowrap;
+	width:100%;
+}
+.OurWork{
+	position: absolute;
+	left: 15%;
+	color:#d2143a;
+}
+.OurWork:hover{
+	color:#d2143a;
+}
+.OurWorkU{
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 5px;
+	background-color: #d2143a;
+	opacity: 1;
+}
+.AboutUs{
+	position: absolute;
+	left: 36%;
+}
+.AboutUs:hover{
+	color:#d2143a;
+}
+.AboutUsU{
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 5px;
+	background-color: #d2143a;
+	opacity: 0;
+}
+.News{
+	position: absolute;
+	left: 58%; 
+}
+.News:hover{
+	color:#d2143a;
+}
+.NewsU{
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 5px;
+	background-color: #d2143a;
+	opacity: 0;
+}
+.ContactUs{
+	position: absolute;
+	left: 75%;
+}
+.ContactUs:hover{
+	color:#d2143a;
+}
+.ContactUsU{
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 5px;
+	background-color: #d2143a;
+	opacity: 0;
+}
+.bodyContainer{
+	height: 2000px;
+	width:100%;
+}
+.bannerPNG{
+	position:absolute;
+	top:100px;
+	left:0px;
+}
+.OurWorkContainer{
+	width:100%;
+}
+.Icon1{
+	position:absolute;
+	top:700px;
+	left: 12%;
+}
+.Icon2{
+	position:absolute;
+	top:700px;
+	left: 41%;
+}
+.Icon3{	
+	position:absolute;
+	top:700px;
+	left: 68%;
+}
+.FeatureFont{
+	font-family: Helvetica;
+	position: absolute;
+	top: 900px;
+    font-size: 20px;
+	white-space: nowrap;
+	width: 100%;
+}
+.Feature1{
+	position: absolute;
+	left: 14.5%	
+}
+.Feature2{
+	position: absolute;
+	left: 46%;
+}
+.Feature3{
+	position: absolute;
+	left: 72.5%;
+}
+.hr{
+	position: absolute;
+	top: 900px;
+	left: 10%;
+	width:80%;
+	height:5px;
+	background-color: #A9A9A9;
+}
+.AboutUsContainer{
+	width:100%;
+	font-family: Didot;
+	font-style: italic;
+	line-height: 28px;
+}
+.TheTeam{
+	font-family: Palatino;
+	position: absolute;
+	top: 950px;
+	font-size: 25px;
+	left: 46%;
+}
+.OccupationColor{
+	color: #d2143a;
+}
+.DesColor{
+	color: #808080;
+}
+.Member1{
+	position: absolute;
+	top: 1050px;
+	left:13%;
+}
+.photo1{
+	width: 450px;
+	height: 253px;
+	background-color: #A9A9A9;
+	margin: 0px 0px 20px 0px;
+	background-image: url("IMG/Members/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.Member2{
+	position: absolute;
+	top: 1050px;
+	left:53%;
+}
+.photo2{
+	width: 450px;
+	height: 253px;
+	background-color: #A9A9A9;
+	margin: 0px 0px 20px 0px;
+	background-image: url("IMG/Members/2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.Member3{
+	position: absolute;
+	top: 1450px;
+	left:13%;
+}
+.photo3{
+	width: 450px;
+	height: 253px;
+	background-color: #A9A9A9;
+	margin: 0px 0px 20px 0px;
+	background-image: url("IMG/Members/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.Member4{
+	position: absolute;
+	top: 1450px;
+	left:53%;
+}
+.photo4{
+	width: 450px;
+	height: 253px;
+	background-color: #A9A9A9;
+	margin: 0px 0px 20px 0px;
+	background-image: url("IMG/Members/4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.Member5{
+	position: absolute;
+	top: 1850px;
+	left:13%;
+}
+.photo5{
+	width: 450px;
+	height: 253px;
+	background-color: #A9A9A9;
+	margin: 0px 0px 20px 0px;
+	background-image: url("IMG/Members/5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hr2{
+	position: absolute;
+	top: 2200px;
+	left: 10%;
+	width:80%;
+	height:5px;
+	background-color: #A9A9A9;
+}
+.NewsContainer{
+	width:100%;
+}
+.NewsText{	
+	font-family: Palatino;
+	position: absolute;
+	top: 2250px;
+	font-size: 25px;
+	left: 48%;
+}
+.NewsContent{
+	position: absolute;
+	top: 2350px;
+	font-size: 20px;
+	left: 46.5%;
+	opacity: 0.6;
+}
+.ContactUsContainer{
+	font-family: Copperplate;
+	position: absolute;
+	top: 2700px;
+	background-color: #A9A9A9;
+	width: 100%;
+	height: 130px;
+	left:0%;
+}
+.CUText{
+	position: relative;
+	top: 10px;
+	line-height: 30px;
+}

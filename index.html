@@ -1,0 +1,146 @@
+<html>
+	<head>
+		<title>About Us</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<title>About Us</title>
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="bannerContainer">
+			<div class="BannerFont">
+				<div class="OurWork"><div class="OurWorkU"></div>
+					Our Work
+				</div>
+				<div class="AboutUs"><div class="AboutUsU"></div>
+					About Us
+				</div>
+				<div class="News"><div class="NewsU"></div>
+					News
+				</div>
+				<div class="ContactUs"><div class="ContactUsU"></div>
+					Contact Us
+				</div>
+			</div>
+		</div>
+		<div class="bodyContainer">
+			<div class="bannerPNG">
+				<img src="IMG/Banner.jpg" width=100%>
+			</div>
+			<div class="hr">
+			</div>
+			<div class="AboutUsContainer">
+				<div class="TheTeam">THE TEAM</div>
+				<div class="Member1"><div class="photo1"></div>
+					王康霖<br>
+					<div class="OccupationColor">Team Leader</div>
+				</div>	
+				<div class="Member2"><div class="photo2"></div>
+					黃俊豪<br>
+					<div class="OccupationColor">Designer, UI</div>
+				</div>	
+				<div class="Member3"><div class="photo3"></div>
+					林文盛<br>
+					<div class="OccupationColor">Programmer</div>
+				</div>	
+				<div class="Member4"><div class="photo4"></div>
+					陳冠融<br>
+					<div class="OccupationColor">Programmer</div>
+				</div>	
+				<div class="Member5"><div class="photo5"></div>
+					葉勁毅<br>
+					<div class="OccupationColor">Programmer</div>
+				</div>	
+			</div>
+			
+			<div class="NewsContainer">
+				<div class="hr2"></div>
+				<div class="NewsText">NEWS</div>
+				<div class="NewsContent">Nothing New</div>
+
+			</div>
+			<div class="ContactUsContainer">
+				<div class="CUText">
+					<center>09-12345678 王康霖<br>
+					06-2757575 NATIONAL CHENG KUNG UNIVERSITY<br>
+					701 臺南市 東區 大學路1號</center>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(window).scroll(function(){
+				if( $(window).scrollTop() > 0 && $(window).scrollTop() <= 800) { 
+					$(".OurWork").css("color", '#d2143a');
+					$(".AboutUs").css("color", 'black');
+					$(".OurWorkU").css({
+ 	   					"opacity": '1'
+					});
+					$(".AboutUsU").css({
+ 	   					"opacity": '0'
+					});
+				}				
+				if( $(window).scrollTop() > 800 && $(window).scrollTop() <= 1900) { 
+					$(".OurWork").css("color", 'black');
+					$(".AboutUs").css("color", '#d2143a');
+					$(".News").css("color", 'black');
+					$(".OurWorkU").css({
+ 	   					"opacity": '0'
+					});
+					$(".AboutUsU").css({
+ 	   					"opacity": '1'
+					});
+					$(".NewsU").css({
+ 	   					"opacity": '0'
+					});
+				}
+				if( $(window).scrollTop() > 1900 && $(window).scrollTop() <= 2100) { 
+					$(".AboutUs").css("color", 'black');
+					$(".News").css("color", '#d2143a');
+					$(".ContactUs").css("color", 'black');
+					$(".AboutUsU").css({
+ 	   					"opacity": '0'
+					});
+					$(".NewsU").css({
+ 	   					"opacity": '1'
+					});
+					$(".ContactUsU").css({
+ 	   					"opacity": '0'
+					});
+				}
+				if( $(window).scrollTop() > 2100 ) { 
+					$(".News").css("color", 'black');
+					$(".ContactUs").css("color", '#d2143a');
+					$(".NewsU").css({
+ 	   					"opacity": '0'
+					});
+					$(".ContactUsU").css({
+ 	   					"opacity": '1'
+					});
+				}	
+			});
+		</script>
+	</body>
+<!--
+Logo                                                                       
+1. Currency Converter
+2. Forex Trading
+3. P2P Exchange
+
+THE TEAM
+1. JIAN-WEI, CHENG
+2. YOU-REN, DU
+3. HAN-WEI, HUANG
+4. WEI-JIA, LEE
+5. KANG-LIN, WONG 
+
+NEWS
+FAKE Exchange news 
+
+Contact Us
+09-12345678 YOU-REN, DU
+06-2757575 NATIONAL CHENG KUNG UNIVERSITY
+701 臺南市 東區 大學路1號
+-->
+</html>
+
+
