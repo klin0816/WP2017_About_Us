@@ -134,7 +134,7 @@ body{
 }
 .hr{
 	position: absolute;
-	top: 1050px;
+	top: 1150px;
 	left: 10%;
 	width:80%;
 	height:5px;
@@ -161,7 +161,7 @@ body{
 }
 .Member1{
 	position: absolute;
-	top: 1050px;
+	top: 1300px;
 	left:13%;
 }
 .photo1{
@@ -176,7 +176,7 @@ body{
 }
 .Member2{
 	position: absolute;
-	top: 1050px;
+	top: 1300px;
 	left:53%;
 }
 .photo2{
@@ -191,7 +191,7 @@ body{
 }
 .Member3{
 	position: absolute;
-	top: 1450px;
+	top: 1600px;
 	left:13%;
 }
 .photo3{
@@ -206,7 +206,7 @@ body{
 }
 .Member4{
 	position: absolute;
-	top: 1450px;
+	top: 1600px;
 	left:53%;
 }
 .photo4{
@@ -221,7 +221,7 @@ body{
 }
 .Member5{
 	position: absolute;
-	top: 1850px;
+	top: 2050px;
 	left:13%;
 }
 .photo5{
@@ -236,7 +236,7 @@ body{
 }
 .hr2{
 	position: absolute;
-	top: 2200px;
+	top: 2450px;
 	left: 10%;
 	width:80%;
 	height:5px;
@@ -248,13 +248,13 @@ body{
 .NewsText{	
 	font-family: Palatino;
 	position: absolute;
-	top: 2400px;
+	top: 2500px;
 	font-size: 25px;
 	left: 48%;
 }
 .NewsContent{
 	position: absolute;
-	top: 2350px;
+	top: 2600px;
 	font-size: 20px;
 	left: 46.5%;
 	opacity: 0.6;
